@@ -1,0 +1,13 @@
+body {margin:auto; width: 800px; font: 14px Helvetica,Tahoma,Arial,Sans,Sans-serif; background: white;}
+a { text-decoration: none; color: black;}
+hr { height: 1px; background-color: gray; border: none; clear: both; margin: 8px;}
+div { margin-top: 8px; margin-bottom: 8px;}
+table{
+    border-collapse:collapse;
+}
+th,td{
+    border: 1px solid gray;
+    margin: 0px;
+    padding: 4px;
+    text-align:center;
+}

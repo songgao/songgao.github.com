@@ -1,0 +1,33 @@
+<html>
+<head>
+    <meta http-equiv="Pragma" content="no-cache;">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+    <script src="js/wareagle.js"></script>
+    <script src='http://datatables.net/download/build/jquery.dataTables.min.js'></script>
+    <link type="text/css" href="css/black-tie/jquery-ui-1.8.16.custom.css" rel="Stylesheet" />	
+    <link href="css/wareagle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div>
+    This page shows Google Apps customers list. The data is retrieved from http://apps-community.appspot.com/feed/? , which is used to power Google Apps customer maps, such as <a href='http://www.google.com/apps/intl/en/edu/customer_list.html'>http://www.google.com/apps/intl/en/edu/customer_list.html</a>.
+    </div>
+    <hr/>
+    <a class='makebutton' href='index.html?version=EDU'>EDU</a>
+    <a class='makebutton' href='index.html?version=Business'>Business</a>
+    <a class='makebutton' href='index.html?version=GOV'>GOV</a>
+    <a class='makebutton' href='index.html?version=ALL'>ALL</a>
+    <div><span id='status'>Loading data...</span></div>
+    <div id='list'>
+        <table id='list_table'>
+            <thead>
+                <th>Name</th>
+                <th>City</th>
+                <th>State</th>
+                <th>Country</th>
+            </thead>
+        </table>
+    </div>
+</body>
+</html>
+        
